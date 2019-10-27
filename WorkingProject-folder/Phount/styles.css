@@ -70,3 +70,13 @@ h1 {
     font-size: 64px;
     margin: 100px 0 100px 0;
 }
+
+.how-to-col img {
+    display: block;
+    margin: auto;
+}
+
+.page-footer{
+    background-color: #00518f;
+    color: white;
+}
