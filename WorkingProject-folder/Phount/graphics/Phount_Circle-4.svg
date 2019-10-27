@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #00518f;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        font-size: 133.333px;
+        fill: #00518f;
+        font-family: "Open Sans";
+      }
+    </style>
+  </defs>
+  <image width="50" height="50" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAfUlEQVRoge3asQ3CUADEUCeCDdh/NLJAlAUofkSJ0qXyR34TnPtbxhhv4AV8mNMT2L8hY9KAHytwiPbcdaxz7r4qxKYQm0JsCrEpxKYQm0JsCrEpxKYQm0JsCrEpxKYQm0JsCrEpxKYQm0JsCrEpxKYQm7+5OT2AbfrjGewnFvkS8rSd29gAAAAASUVORK5CYII="/>
+  <ellipse class="cls-1" cx="24.875" cy="25.125" rx="23.875" ry="23.875"/>
+  <text id="_4" data-name="4" class="cls-2" transform="translate(15 37.25) scale(0.25)">4</text>
+</svg>
