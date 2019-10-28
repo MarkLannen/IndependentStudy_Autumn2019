@@ -80,3 +80,15 @@ h1 {
     background-color: #00518f;
     color: white;
 }
+
+/*Category Profiles page*/
+
+#categories-profiles-banner {
+    padding: 10px 0 10px 0;
+    background-color: #3c3f41;
+}
+
+#categories-profiles-banner h1 {
+    color: white;
+    font-size: 2rem;
+}
