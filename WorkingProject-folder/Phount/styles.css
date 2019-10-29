@@ -99,3 +99,8 @@ h1 {
 .category-profile-card-title {
     font-size: 1.5rem;
 }
+
+.button-connect {
+    background-color: #C7332E;
+    color: #fff;
+}
