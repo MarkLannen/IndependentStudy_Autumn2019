@@ -103,4 +103,14 @@ h1 {
 .button-connect {
     background-color: #C7332E;
     color: #fff;
+    padding: 5px 50px 5px 50px;
+}
+
+.expert-rating {
+   font-size: 1rem;
+}
+
+.star-rating {
+    color: #C7332E;
+    font-size: 1rem;
 }
