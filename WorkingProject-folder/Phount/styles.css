@@ -123,3 +123,7 @@ h1 {
 #expert-registration-header h2 {
     font-size: 1.25rem;
 }
+
+#expert-registration-instructions {
+    margin-bottom: 100px;
+}
