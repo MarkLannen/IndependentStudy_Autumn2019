@@ -127,3 +127,9 @@ h1 {
 #expert-registration-instructions {
     margin-bottom: 100px;
 }
+
+#expert-area-submission {
+    color: white;
+    background-color: #C7332E;
+    padding: 8px 50px 8px 50px;
+}

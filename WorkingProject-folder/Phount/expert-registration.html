@@ -54,12 +54,16 @@
 
 <section class="mb-5">
     <div class="container">
+        <div><img src="graphics/Phount-1-red-fill-35px.svg" height="35px" width="35px" alt=""></div>
+        <h4 class="mb-5">Let’s start with your area(s) of expertise</h4>
+
         <div class="row">
-            <div class="col-6">
-                <img src="graphics/Phount-1-red-fill-35px.svg" height="35px" width="35px" alt="">
-                <p class="mb-4">Let’s start with your area(s) of expertise</p>
-                <div class="form-group col-8 no-gutter ">
-                    <label for="expertCategory">Select an area of expertise</label>
+<!--            <div class="col-6">-->
+
+            <br>
+
+                <div class="form-group col-6">
+                    <label for="expertCategory">Select an existing area of expertise</label>
                     <select class="form-control" id="expertCategory">
                         <option>1</option>
                         <option>2</option>
@@ -68,7 +72,15 @@
                         <option>5</option>
                     </select>
                 </div>
-            </div>
+                <div class="form-group col-6">
+                    <label for="formGroupExampleInput">Was your area of expertise not listed?</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Create a new area of expertise">
+                </div>
+                <div class="col-6">
+                    <input class="btn btn-large" id="expert-area-submission" type="button" value="Submit and Add Specific Skills">
+                </div>
+
+<!--            </div>-->
             <div class="col-6"></div>
         </div>
     </div>
