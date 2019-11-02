@@ -145,7 +145,30 @@ h1 {
     background-color: #3c3f41;
 }
 
-#expert-registration-landing-heading {
+.registration-landing-heading {
     color: white;
     font-size: 1.5rem;
+}
+
+.registration-element {
+    width: 300px;
+}
+
+#expertUsernameText {
+    color: white;
+}
+
+#expertEmailText {
+    color: white;
+}
+
+#expertPasswordText {
+    color: white;
+}
+
+#register-button {
+    background-color: #C7332E;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
 }
