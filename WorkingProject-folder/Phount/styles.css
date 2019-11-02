@@ -180,11 +180,23 @@ h1 {
 
 }
 
-.add-skills-button-group {
-    width: 450px;
+.add-skills-buttons {
+    /*width: 450px;*/
 }
 
 .add-new-skill-button {
     background-color: #00518f;
     color: white;
+}
+
+.add-more-skills-button {
+    background-color: #00518f;
+    color: white;
+    width: 220px;
+}
+
+.submit-add-experience-button {
+    background-color: #C7332E;
+    color: white;
+    width: 300px;
 }
