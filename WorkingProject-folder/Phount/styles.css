@@ -173,3 +173,18 @@ h1 {
     font-size: 1.25rem;
     margin-top: -5px;
 }
+
+/*Expert skills page*/
+
+#expert-skills-section {
+
+}
+
+.add-skills-button-group {
+    width: 450px;
+}
+
+.add-new-skill-button {
+    background-color: #00518f;
+    color: white;
+}

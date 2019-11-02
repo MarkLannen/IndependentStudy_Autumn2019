@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300|Sanchez&display=swap" rel="stylesheet">
     <!--    Custom JavaScript-->
 
-    <title>Expert Registration First Step</title>
+    <title>Expert Skills</title>
 </head>
 
 <body>
@@ -23,68 +23,68 @@
 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #00518f">
     <div class="container-fluid">
         <a class="navbar-brand Sanchez" href="#">Phount</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link Rubik text-white ml-2" href="#">Register as an Expert</a>
-                </li>
-            </ul>
-            <button id="nav-login-button" class="btn px-4 ml-auto">Login</button>
-            <button class="btn btn-light ml-3">My Profile</button>
-        </div>
+        <!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">-->
+        <!--            <span class="navbar-toggler-icon"></span>-->
+        <!--        </button>-->
+        <!--        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">-->
+        <!--            <ul class="navbar-nav">-->
+        <!--                &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+        <!--                &lt;!&ndash;                    <a class="nav-link Rubik text-white ml-2" href="#">Register as an Expert</a>&ndash;&gt;-->
+        <!--                &lt;!&ndash;                </li>&ndash;&gt;-->
+        <!--            </ul>-->
+        <!--            <button id="nav-login-button" class="btn px-4 ml-auto">Login</button>-->
+        <!--            <button class="btn btn-light ml-3">My Profile</button>-->
+        <!--        </div>-->
     </div>
 </nav>
 
-<section id="expert-registration-header">
-    <div id="expert-registration-instructions" class="container">
-        <h1 class="expert-registration-heading">Hi ##Expert's Name##, welcome to Phount!</h1>
-        <p class="mb-5">Let's set up your profile so that you can share your expertise with the world!</p>
-        <h2 class="mb-4 ">4 steps to set up your profile - please tell us about your:</h2>
-        <div class="row mb-4 d-flex justify-content-start">
-            <div class="col-6 col-sm-3 text-center"><img src="graphics/Phount-1-red-fill-35px.svg" class="mb-1 height="35px" width="35px" alt=""><br><p>Area(s) of expertise</p></div>
-            <div class="col-6 col-sm-3 text-center"><img src="graphics/Phount-2-red-35px.svg" class="mb-1 height="35px" width="35px" alt=""><br><p>Specific skills</p></div>
-            <div class="col-6 col-sm-3 text-center"><img src="graphics/Phount-3-red-35px.svg" class="mb-1 height="35px" width="35px" alt=""><br><p>Experience</p></div>
-            <div class="col-6 col-sm-3 text-center"><img src="graphics/Phount-4-red-35px.svg" class="mb-1 height="35px" width="35px" alt=""><br><p>Availability</p></div>
-        </div>
-     </div>
-</section>
-
-<section class="mb-5">
+<section id="expert-skills-section" class="my-5">
     <div class="container">
-        <div class="row">
-            <img src="graphics/Phount-1-red-fill-35px.svg" class="mr-3" height="35px" width="35px" alt="">
+        <div class="row justify-content-center">
+            <img src="graphics/Phount-2-red-fill-35px.svg" class="mr-3" height="35px" width="35px" alt="">
             <h4 class="mb-5">Let’s start with your area(s) of expertise</h4>
         </div>
-
-
-        <div class="row">
-            <br>
-                <div class="form-group col-md-6 col-12">
-                    <label for="expertCategory">Select an existing area of expertise</label>
-                    <select class="form-control" id="expertCategory">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
+        <div class="row justify-content-center">
+            <div class="form-group col-12 col-sm-10 col-md-8 col-lg-6">
+                <label for="skillCategory">Select your specific skills from the dropdown menu or add a new skill</label>
+                <select class="form-control" id="skillCategory">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="input-group mb-3 add-skills-button-group col-12 col-sm-10 col-md-8 col-lg-6">
+                <input type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                     <button class="btn btn-outline-secondary add-new-skill-button" type="button" id="button-addon2">Add</button>
                 </div>
-                <div class="form-group col-md-6 col-12">
-                    <label for="formGroupExampleInput">Was your area of expertise not listed?</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Create a new area of expertise">
-                </div>
-                <div class="col-6">
-                    <input class="btn btn-large" id="expert-area-submission" type="button" value="Submit and Add Specific Skills">
-                </div>
+             </div>
+        </div>
 
-<!--            </div>-->
-            <div class="col-6"></div>
+        <div class="row justify-content-center">
+            <div class="input-group mb-3 add-skills-button-group col-12 col-sm-10 col-md-8 col-lg-6">
+                <input type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary add-new-skill-button" type="button" id="button-addon2">Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="input-group mb-3 add-skills-button-group col-12 col-sm-10 col-md-8 col-lg-6">
+                <input type="text" class="form-control" placeholder="Add a new skill" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary add-new-skill-button" type="button" id="button-addon2">Add</button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+
 
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
