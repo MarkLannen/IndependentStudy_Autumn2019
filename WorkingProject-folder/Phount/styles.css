@@ -166,9 +166,10 @@ h1 {
     color: white;
 }
 
-#register-button {
+.register-button {
     background-color: #C7332E;
     color: white;
     border: none;
     font-size: 1.25rem;
+    margin-top: -5px;
 }
