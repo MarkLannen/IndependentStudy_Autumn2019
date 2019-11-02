@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300|Sanchez&display=swap" rel="stylesheet">
     <!--    Custom JavaScript-->
 
-    <title>Novice Registration</title>
+    <title>Expert Registration Landing</title>
 </head>
 
 <body>
@@ -38,49 +38,29 @@
     </div>
 </nav>
 
-<section id="expert-registration-header">
-    <div id="expert-registration-instructions" class="container">
-        <h1 class="expert-registration-heading">Hi ##Novice's Name##, welcome to Phount!</h1>
-        <p class="mb-5">Let's set up your profile so that you can connect with an expert!</p>
-        <h2 class="mb-3">2 steps to set up your profile - please tell us about your:</h2>
-        <div class="row mb-4 d-flex justify-content-start">
-            <div class="col-6 col-sm-3 text-center"><img src="graphics/Phount-1-red-fill-35px.svg" height="35px" width="35px" alt=""><br><p>Area(s) of expertise</p></div>
-            <div class="col-6 col-sm-3 text-center"><img src="graphics/Phount-2-red-35px.svg" height="35px" width="35px" alt=""><br><p>Specific skills</p></div>
-           
-        </div>
+<section id="expert-registration-landing-section">
+    <div class="container text-center py-5">
+        <h1 id="expert-registration-landing-heading">Create an account to connect with an expert</h1>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 </section>
 
-<section class="mb-5">
-    <div class="container">
-        <div><img src="graphics/Phount-1-red-fill-35px.svg" height="35px" width="35px" alt=""></div>
-        <h4 class="mb-5">Let’s start with your area(s) of expertise</h4>
 
-        <div class="row">
-            <br>
-            <div class="form-group col-md-6 col-12">
-                <label for="expertCategory">Select an existing area of expertise</label>
-                <select class="form-control" id="expertCategory">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                </select>
-            </div>
-            <div class="form-group col-md-6 col-12">
-                <label for="formGroupExampleInput">Was your area of expertise not listed?</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Create a new area of expertise">
-            </div>
-            <div class="col-6">
-                <input class="btn btn-large" id="expert-area-submission" type="button" value="Submit and Add Specific Skills">
-            </div>
-
-            <!--            </div>-->
-            <div class="col-6"></div>
-        </div>
-    </div>
-</section>
 
 <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">

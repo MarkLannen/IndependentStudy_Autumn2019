@@ -140,4 +140,12 @@ h1 {
      color: white;
  }
 
+ /*Expert Registration Landing Page*/
+#expert-registration-landing-section {
+    background-color: #3c3f41;
+}
 
+#expert-registration-landing-heading {
+    color: white;
+    font-size: 1.5rem;
+}
